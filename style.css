@@ -1,0 +1,40 @@
+
+body{
+    background-color: tan;
+}
+
+.container h1{
+    margin-top: 50px;
+    margin-bottom:20px ;
+
+}
+
+.container div{
+    margin-left: 22rem;
+}
+@media all and (max-width:768px){
+    .container h1{
+        margin-top: 20px;
+        margin-bottom:10px ;
+    
+    }
+    
+    .container div{
+        margin: 2rem;
+    }
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: inherit;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    width:400px;
+    height:300px;
+}
+
+
